@@ -6,11 +6,11 @@ import time
 import smtplib
 from email.mime.text import MIMEText
 
-mailto = ["364889036@qq.com"]
+mailto = ["yourmail"]//发送地址
 
-mail_host = "smtp.163.com"
-mail_user = "15626238007@163.com"
-mail_pass = "ipadmini2hehehe"
+mail_host = "smtp.163.com"//你的邮件运营商smtp地址
+mail_user = "15626238007@163.com"//发送邮件的地址
+mail_pass = "ipadmini2hehehe"发送邮件密码
 mail_postfix = "163.com"
 
 me = mail_user+"<"+mail_user+"@"+mail_postfix+">"
